@@ -1,0 +1,6 @@
+CREATE TABLE rooms (
+  code TEXT PRIMARY KEY,
+  rev INTEGER NOT NULL DEFAULT 0,
+  expires INTEGER NOT NULL,
+  state TEXT NOT NULL
+);
